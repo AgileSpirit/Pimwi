@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-color: #FAFAFA;
+}
+
+#app {
+  background-color: #FFF;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #eee;
+  background-color: #FAFAFA;
+}
+
+.app-list {
+}
+
+.app-list-item {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 10px 0;
+}
+
+.app-list-item:first-child {
+  padding-top: 0;
+}
+
+.app-list-item:last-child {
+  border-bottom: none;
+}
+
+.composer {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 20px 10px 20px;
+}
+
+.profile-picture {
+  margin-top: 5px;
+  height: 72px;
+  width: 72px;
+}
+
+.news {
+  padding-bottom: 15px;
+}
+.news:last-child {
+  padding-bottom: 0;
+}
+
+.search-bar {
+  padding-right: 0;
+}
+
+.search-form {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.news-body {
+  border-bottom: 1px solid #E9E9E9;
+  padding: 10px 0;
+}
+.news-body:first-child {
+  padding-top: 0;
+}
+.news:last-child .news-body {
+  border-bottom: none;
+}
+
+.news-comments {
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #f6f7f8;
+}
+
+.news-answer {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f6f7f8;
+}
+
+.news-publisher {
+}
